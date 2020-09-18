@@ -29,14 +29,14 @@
       "metadata": {
         "description": "The friendly name of the Hostpool to be created."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "hostpoolDescription": {
       "type": "string",
       "metadata": {
         "description": "The description of the Hostpool to be created."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "location": {
       "type": "string",
@@ -49,28 +49,28 @@
       "metadata": {
         "description": "The name of the workspace to be attach to new Applicaiton Group."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "workspaceLocation": {
       "type": "string",
       "metadata": {
         "description": "The location of the workspace."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "workspaceResourceGroup": {
       "type": "string",
       "metadata": {
         "description": "The workspace resource group Name."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "allApplicationGroupReferences": {
       "type": "string",
       "metadata": {
         "description": "The existing app groups references of the workspace selected."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "addToWorkspace": {
       "type": "bool",
@@ -83,14 +83,14 @@
       "metadata": {
         "description": "A username in the domain that has privileges to join the session hosts to the domain. For example, 'user1@contoso.com'."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "administratorAccountPassword": {
       "type": "securestring",
       "metadata": {
         "description": "The password that corresponds to the existing domain username."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "createAvailabilitySet": {
       "type": "bool",
@@ -104,21 +104,21 @@
       "metadata": {
         "description": "The resource group of the session host VMs."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "vmLocation": {
       "type": "string",
       "metadata": {
         "description": "The location of the session host VMs."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "vmSize": {
       "type": "string",
       "metadata": {
         "description": "The size of the session host VMs."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "vmNumberOfInstances": {
       "type": "int",
@@ -132,7 +132,7 @@
       "metadata": {
         "description": "This prefix will be used in combination with the VM number to create the VM name. If using 'rdsh' as the prefix, VMs would be named 'rdsh-0', 'rdsh-1', etc. You should use a unique prefix to reduce name collisions in Active Directory."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "vmImageType": {
       "type": "string",
@@ -151,35 +151,35 @@
       "metadata": {
         "description": "(Required when vmImageType = Gallery) Gallery image Offer."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "vmGalleryImagePublisher": {
       "type": "string",
       "metadata": {
         "description": "(Required when vmImageType = Gallery) Gallery image Publisher."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "vmGalleryImageSKU": {
       "type": "string",
       "metadata": {
         "description": "(Required when vmImageType = Gallery) Gallery image SKU."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "vmImageVhdUri": {
       "type": "string",
       "metadata": {
         "description": "(Required when vmImageType = CustomVHD) URI of the sysprepped image vhd file to be used to create the session host VMs. For example, https://rdsstorage.blob.core.windows.net/vhds/sessionhostimage.vhd"
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "vmCustomImageSourceId": {
       "type": "string",
       "metadata": {
         "description": "(Required when vmImageType = CustomImage) Resource ID of the image"
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "vmDiskType": {
       "type": "string",
@@ -205,28 +205,28 @@
       "metadata": {
         "description": "(Required when vmUseManagedDisks = False) The resource group containing the storage account of the image vhd file."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "existingVnetName": {
       "type": "string",
       "metadata": {
         "description": "The name of the virtual network the VMs will be connected to."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "existingSubnetName": {
       "type": "string",
       "metadata": {
         "description": "The subnet the VMs will be placed in."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "virtualNetworkResourceGroupName": {
       "type": "string",
       "metadata": {
         "description": "The resource group containing the existing virtual network."
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "usePublicIP": {
       "type": "bool",
@@ -269,7 +269,7 @@
       "metadata": {
         "description": "The resource id of an existing network security group"
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "networkSecurityGroupRules": {
       "type": "array",
@@ -324,14 +324,14 @@
       "metadata": {
         "description": "Hostpool rdp properties"
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "vmTemplate": {
       "type": "string",
       "metadata": {
         "description": "The necessary information for adding more VMs to this Hostpool"
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "tokenExpirationTime": {
       "type": "string",
@@ -407,7 +407,7 @@
       "metadata": {
         "description": "GUID for the deployment"
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "validationEnvironment": {
       "type": "bool",
@@ -428,14 +428,14 @@
       "metadata": {
         "description": "OUPath for the domain join"
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     },
     "domain": {
       "type": "string",
       "metadata": {
         "description": "Domain to join"
       },
-      "defaultValue": ""
+      "defaultValue": "dummy"
     }
   },
   "variables": {
