@@ -9,7 +9,7 @@
       "value": "https://raw.githubusercontent.com/Azure/RDS-Templates/master/ARM-wvd-templates/DSC/Configuration.zip"
     },
     "hostpoolName": {
-      "value": null
+      "value": "Hostpool05"
     },
     "hostpoolFriendlyName": {
       "value": null
@@ -18,7 +18,7 @@
       "value": null
     },
     "location": {
-      "value": null
+      "value": "East US"
     },
     "workSpaceName": {
       "value": null
