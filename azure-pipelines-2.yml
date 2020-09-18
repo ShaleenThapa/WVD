@@ -20,7 +20,7 @@ steps:
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/PriyamvadaSharma/WVD/master/hostpool/hostpoolcreate2.json'
-    csmParametersFileLink: 'https://raw.githubusercontent.com/PriyamvadaSharma/WVD/master/parametersFile.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/PriyamvadaSharma/WVD/master/hostpool/parametersFile.json'
     deploymentMode: 'Incremental'
 
 - script: |
